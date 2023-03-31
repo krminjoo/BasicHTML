@@ -39,15 +39,18 @@
       }
       .banner {
         border-top: 5px solid #83bdff;
-        height: auto;
-        width: auto;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
         display: block;
-        color: rgb(196, 225, 252);
         background-image: url("images/templatemo_banner_bg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        font-size: 20px;
         padding: 40px;
+      }
+      .header_text {
+        font-size: 20px;
+        color: rgb(196, 225, 252);
       }
       .my_image {
         display: block;
@@ -110,9 +113,6 @@
       .footer_menu_list {
         list-style: none;
       }
-      .footer_menu_list li {
-
-      }
       .footer_menu_list a {
         text-decoration: none;
         color:#636363
@@ -147,15 +147,17 @@
     <!--end of menu-->
     <div class="banner">
       <img src="images/templatemo_image_01.jpg" alt="image1" class="my_image" />
+      <div class="header_text">
       <div class="header_01">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.
       </div>
       <p>
-        Aliquam dignissim elementum est sit amet iaculis. Integer pretium
-        ultricies risus, condimentum molestie odio euismod vitae.
+        Aliquam dignissim elementum est sit amet iaculis. <br>Integer pretium
+        ultricies risus, condimentum <br>molestie odio euismod vitae.
       </p>
       <div class="button_01">
         <a href="http://" class="button_01">Read more</a>
+      </div>
       </div>
     </div>
     <!--end of banner-->
